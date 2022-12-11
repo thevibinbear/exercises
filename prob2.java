@@ -10,6 +10,7 @@ public class prob2 {
         attack = 0;
         defense = 0;
         speed = 0;
+        total = 0;
     }
     public prob2 (int h, int a, int d, int s) {
         hp = h;
