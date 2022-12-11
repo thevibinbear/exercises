@@ -8,6 +8,6 @@ public class prob1 {
         this.hitPoints = hitPoints;
     }
     public void damage(int amountOfDamage) {
-        hitPoints -= amouuntOfDamage;
+        hitPoints -= amountOfDamage;
     }
 }
