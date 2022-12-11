@@ -30,7 +30,7 @@ public class Trainer {
     public void setMiddleName(String m) {
         middleName = m;
     }
-    public void setPlayed(String p) {
+    public void setPlayed(boolean p) {
         setPlayed = p;
     }
 }
