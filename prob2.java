@@ -12,11 +12,12 @@ public class prob2 {
         speed = 0;
         total = 0;
     }
-    public prob2 (int h, int a, int d, int s) {
+    public prob2 (int h, int a, int d, int s, int t) {
         hp = h;
         attack = a;
         defense = d;
         speed = s;
+        total = t;
     }
     public void calculateTotal() {
         total = hp + attack + defense + speed;
