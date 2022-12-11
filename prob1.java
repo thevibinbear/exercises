@@ -7,7 +7,7 @@ public class prob1 {
         this.isFighting = isFighting;
         this.hitPoints = hitPoints;
     }
-    public void subtractHealth(int amountOfDamage) {
+    public void damage(int amountOfDamage) {
         hitPoints -= amouuntOfDamage;
     }
 }
